@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Core.Entities
+
+namespace API.Dtos
 {
-    public class Product : BaseEntity
+    public class ProductToReturnDto 
     {
+        public int Id { get; set; }
         public string Name { get; set;}
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
-        public ProductType  productType { get; set; }
-        public int ProductTypeId { get; set; }
-        public productBrand ProductBrand { get; set; } 
-        public int ProductBrandId { get; set; }
+        public string  productType { get; set; }
+        public string ProductBrand { get; set; } 
 
     }
 }

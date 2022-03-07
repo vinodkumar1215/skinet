@@ -12,32 +12,32 @@
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":150,
         "PictureUrl":"images/products/sb-ang2.png",
-        "ProductTypeId":1,
-        "ProductBrandId":1
+        "ProductTypeId":2,
+        "ProductBrandId":2
     },
     {
         "Name":"Core Board Speed Rush 3",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":100,
-        "PictureUrl":"images/products/sb-ang1.png",
-        "ProductTypeId":1,
-        "ProductBrandId":1
+        "PictureUrl":"images/products/sb-ang3.png",
+        "ProductTypeId":3,
+        "ProductBrandId":3
     },
     {
         "Name":"Sports Wear",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":200,
-        "PictureUrl":"images/products/sb-ang1.png",
-        "ProductTypeId":1,
-        "ProductBrandId":1
+        "PictureUrl":"images/products/sb-ang4.png",
+        "ProductTypeId":4,
+        "ProductBrandId":4
     },
     {
         "Name":"Casual Shoes",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":200,
-        "PictureUrl":"images/products/sb-ang1.png",
-        "ProductTypeId":1,
-        "ProductBrandId":1
+        "PictureUrl":"images/products/sb-ang5.png",
+        "ProductTypeId":5,
+        "ProductBrandId":5
     }
     
 ]

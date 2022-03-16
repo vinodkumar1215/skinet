@@ -1,7 +1,7 @@
 [
     {
         "Id" : 1,
-        "Name" : "Boards"
+        "Name" : "Shoes"
     },
     {
         "Id" : 2,
@@ -9,14 +9,14 @@
     },
     {
         "Id" : 3,
-        "Name" : "Boots"
+        "Name" : "Running Shoes"
     },
     {
         "Id" : 4,
-        "Name" : "Hats"
+        "Name" : "Sports Shoes"
     },
     {
         "Id" : 5,
-        "Name" : "Glooves"
+        "Name" : "Casual Shoes"
     }
 ]

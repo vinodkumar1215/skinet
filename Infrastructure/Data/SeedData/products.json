@@ -1,14 +1,14 @@
 [
     {
-        "Name":"Shoes",
+        "Name":"Mens Sneaker",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":200,
-        "PictureUrl":"images/products/sb-ang1.png",
+        "PictureUrl":"images/products/sb-ang.png",
         "ProductTypeId":1,
         "ProductBrandId":1
     },
     {
-        "Name":"Shirts ",
+        "Name":"Mens Regular Shirt ",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":150,
         "PictureUrl":"images/products/sb-ang2.png",
@@ -16,26 +16,162 @@
         "ProductBrandId":2
     },
     {
-        "Name":"Core Board Speed Rush 3",
+        "Name":"Desert Shoes",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":100,
         "PictureUrl":"images/products/sb-ang3.png",
         "ProductTypeId":3,
+        "ProductBrandId":1
+    },
+    {
+        "Name":"Asian Running Shoes ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":300,
+        "PictureUrl":"images/products/sb-ang4.png",
+        "ProductTypeId":4,
+        "ProductBrandId":1
+    },
+    {
+        "Name":"Bourge Men Loire-z1",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":200,
+        "PictureUrl":"images/products/sb-ang6.png",
+        "ProductTypeId":5,
+        "ProductBrandId":1
+    },
+    {
+        "Name":"Cotton Shirt ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":500,
+        "PictureUrl":"images/products/sb-ang7.png",
+        "ProductTypeId":2,
+        "ProductBrandId":2
+    },
+    {
+        "Name":"Gray Shirt ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":1000,
+        "PictureUrl":"images/products/sb-ang8.png",
+        "ProductTypeId":2,
+        "ProductBrandId":2
+    },
+    {
+        "Name":"Blue Checks Shirt ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":600,
+        "PictureUrl":"images/products/sb-ang9.png",
+        "ProductTypeId":2,
+        "ProductBrandId":2
+    },
+    {
+        "Name":"Casual Shirt ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":900,
+        "PictureUrl":"images/products/sb-ang10.png",
+        "ProductTypeId":2,
+        "ProductBrandId":2
+    },
+    {
+        "Name":"Geans Shirt ",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":700,
+        "PictureUrl":"images/products/sb-ang11.png",
+        "ProductTypeId":2,
+        "ProductBrandId":2
+    },
+    {
+        "Name":"Running Black-1",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":600,
+        "PictureUrl":"images/products/product1.jpg",
+        "ProductTypeId":1,
         "ProductBrandId":3
     },
     {
-        "Name":"Sports Wear",
+        "Name":"Sports white-Z2",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":1300,
+        "PictureUrl":"images/products/product2.jpg",
+        "ProductTypeId":3,
+        "ProductBrandId":3
+    },
+    {
+        "Name":"Regular Gray",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":1100,
+        "PictureUrl":"images/products/product3.jpg",
+        "ProductTypeId":4,
+        "ProductBrandId":3
+    },
+    {
+        "Name":"Nike Casual",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":1500,
+        "PictureUrl":"images/products/product4.jpg",
+        "ProductTypeId":5,
+        "ProductBrandId":3
+    },
+    {
+        "Name":"Black Formal",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
         "Price":200,
-        "PictureUrl":"images/products/sb-ang4.png",
+        "PictureUrl":"images/products/product5.jpg",
+        "ProductTypeId":1,
+        "ProductBrandId":4
+    },
+    {
+        "Name":"Casual shoe Z-7",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":500,
+        "PictureUrl":"images/products/product6.jpg",
+        "ProductTypeId":3,
+        "ProductBrandId":4
+    },
+    {
+        "Name":"Formal Brown",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":900,
+        "PictureUrl":"images/products/product7.jpg",
         "ProductTypeId":4,
         "ProductBrandId":4
     },
     {
-        "Name":"Casual Shoes",
+        "Name":"Mens Sneaker",
         "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
-        "Price":200,
-        "PictureUrl":"images/products/sb-ang5.png",
+        "Price":400,
+        "PictureUrl":"images/products/product8.jpg",
+        "ProductTypeId":5,
+        "ProductBrandId":4
+    },
+    {
+        "Name":"White Sports",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":700,
+        "PictureUrl":"images/products/product9.jpg",
+        "ProductTypeId":1,
+        "ProductBrandId":5
+    },
+    {
+        "Name":"Sports Green",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":800,
+        "PictureUrl":"images/products/product10.jpg",
+        "ProductTypeId":3,
+        "ProductBrandId":5
+    },
+    {
+        "Name":"Sparx Running",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":300,
+        "PictureUrl":"images/products/product12.jpg",
+        "ProductTypeId":4,
+        "ProductBrandId":5
+    },
+    {
+        "Name":"Fast X-9",
+        "Description":"lorenm ipsum dolor sit amet,consectetuer adipiscing elit.",
+        "Price":1200,
+        "PictureUrl":"images/products/product11.jpg",
         "ProductTypeId":5,
         "ProductBrandId":5
     }

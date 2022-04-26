@@ -1,6 +1,18 @@
 <div class="container mt-2">
   <div *ngIf="(basket$ | async) === null">
-    <p>Ther are no items in your basket</p>
+    <div class="container">
+      <div class="card">
+          <h5 class="card-title">My Basket</h5>
+      </div>
+      <div class="center" style="margin-top:160px">
+          <img src="https://rukminim2.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90" alt="">
+          <h4>Your Basket Is Empty!</h4>
+          <h6>Add items to Basket</h6>
+          <a routerLink="/shop" class="btn btn-primary" style="width:250px">
+              Shop Now
+          </a>
+      </div>
+  </div>
   </div>
 
   <div *ngIf="basket$ | async">
@@ -112,3 +124,4 @@
     </div>
   </div>
 </div>
+

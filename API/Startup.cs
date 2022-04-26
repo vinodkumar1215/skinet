@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
+using Infrastructure.identity;
 
 namespace API
 {
@@ -30,13 +31,19 @@ namespace API
             services.AddDbContext<StoreContext>(x =>
              x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
 
+            services.AddDbContext<AppIdentityDbContext>(x => 
+             {
+                 x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
+             });
+
              services.AddSingleton<IConnectionMultiplexer>(c => {
                  var configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"),
                  true);
                  return ConnectionMultiplexer.Connect(configuration);
              });
-
+         
             services.AddApplicationServices();
+            services.AddIdentityServices(_config);
             services.AddSwaggerDocumentation();
             services.AddCors(opt =>
             {
@@ -52,18 +59,21 @@ namespace API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseMiddleware<ExceptionMiddleware>();
+             app.UseMiddleware<ExceptionMiddleware>();
+             app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
-            
-
-
-            app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
+
             app.UseRouting();
             app.UseStaticFiles();
-            app.UseSwaggerDocumentation();
+
             app.UseCors("CorsPolicy");
+
+            app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSwaggerDocumentation();
+            
 
             app.UseEndpoints(endpoints =>
             {
